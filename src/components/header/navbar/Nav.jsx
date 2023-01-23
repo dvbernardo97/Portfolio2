@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./nav.css";
+import "../navbar/nav.css"
 
 export default function Nav() {
     const [Toggle, showMenu] = useState(false);
